@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(227, 29, 110, 0.3);
+}
+
+form {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: lightpink;
+    color: black;
+    height: 30px;
+    margin: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
